@@ -31,3 +31,28 @@ print(f"Somme des températures : {somme:.2f}")
 print(f"Moyenne des températures : {moyenne:.2f}")
 
 
+"""
+Algorithme Somme_Moyenne_Temperatures
+
+Variables :
+    T, somme, moyenne : Réels
+    i : Entier
+
+Début
+
+    somme ← 0
+
+    Pour i allant de 1 à 4 faire
+        Écrire "Entrer la température ", i, " : "
+        Lire T
+        somme ← somme + T
+    FinPour
+
+    moyenne ← somme / 4
+
+    Écrire "Somme = ", somme
+    Écrire "Moyenne = ", moyenne
+
+Fin
+
+"""
